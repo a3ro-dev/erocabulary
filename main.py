@@ -359,7 +359,7 @@ I'm your one-stop-shop for all things English related, designed to help you enha
       text = update.message.text
       ticket_info=text.replace("/ticket", "")
       context.bot.send_message(chat_id=update.effective_chat.id, text=f"Creating issue check for : {ticket_info}")
-      self.ai.get_prompt(prompt=f"explain me what problem the user has? in computer type clear technical language")
+      self.ai.get_prompt(prompt=f"explain me what problem the user has? in computer type clear technical language\n\nUser Message:{ticket_info}")
       ticket = ""
       response = self.ai.generate_response()
       ticket += f"{response}"
