@@ -5,7 +5,7 @@ import time
 openai.api_key = "OPENAI_API_KEY"
 
 # Set the temperature for text generation
-temperature = 1
+temperature = 1 # change it accordingly
 
 # Set up logging
 log_file = f"log_{time.strftime('%Y%m%d-%H%M%S')}.log"
