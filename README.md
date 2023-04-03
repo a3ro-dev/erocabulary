@@ -1,4 +1,4 @@
-# Telegram English Language Learning Bot
+# Erocabulary
 
 This is a Python-based Telegram bot for learning English language vocabulary and grammar. The bot offers a variety of commands for different language learning purposes, such as word meanings, pronunciation, composition, writing letters and essays, and more.
 
